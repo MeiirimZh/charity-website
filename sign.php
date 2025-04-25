@@ -14,6 +14,7 @@
     ?>
     <main>
         <form class="sign_in" action="" method="POST">
+            <h2 class="form-title">Sign in</h2>
             <h2>Email</h2>
             <input type="email" name="email" placeholder="Enter...">
             <h2>Password</h2>

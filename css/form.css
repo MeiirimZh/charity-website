@@ -6,6 +6,46 @@ form {
     width: 300px;
 }
 
+.form-title {
+    text-align: center;
+    font-size: 28px;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+
+    color: #131313;
+}
+
+input {
+    margin-bottom: 30px;
+    height: 30px;
+
+    font-size: 18px;
+}
+
+input[type="email"], input[type="password"] {
+    border: 2px solid #125242;
+    border-radius: 5px;
+    outline: none;
+}
+
 input[type="submit"] {
-    width: 100px;
+    width: 120px;
+    margin: 0 auto;
+
+    border: none;
+    border-radius: 10px;
+    background: #46A990;
+    color: #fff;
+
+    transition: .2s;
+}
+
+input[type="submit"]:hover {
+    background: #125242;
+    transform: scale(.9);
+
+    transition: .2s;
 }
