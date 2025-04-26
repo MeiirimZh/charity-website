@@ -25,7 +25,11 @@ input {
     font-size: 18px;
 }
 
-input[type="email"], input[type="password"] {
+select {
+    margin-bottom: 30px;
+}
+
+input[type="email"], input[type="password"], input[type="text"] {
     border: 2px solid #125242;
     border-radius: 5px;
     outline: none;
@@ -34,6 +38,7 @@ input[type="email"], input[type="password"] {
 input[type="submit"] {
     width: 120px;
     margin: 0 auto;
+    margin-bottom: 50px;
 
     border: none;
     border-radius: 10px;
@@ -48,4 +53,13 @@ input[type="submit"]:hover {
     transform: scale(.9);
 
     transition: .2s;
+}
+
+.changeFormBtn {
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
 }
